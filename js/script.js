@@ -1,13 +1,13 @@
-let searchForm = document.querySelector(".search-form");
+let searchForm = document.querySelector('.search-form');
 
-document.querySelector("#search-btn").onclick = () =>{
+document.querySelector('#search-btn').onclick = () =>{
     searchForm.classList.toggle('active');
     shoppingCart.classList.remove('active');
     loginForm.classList.remove('active');
-    navbar.classList.remove('active')
+    navbar.classList.remove('active');
 }
 
-let shopping = document.querySelector('.shopping-cart');
+let shoppingCart = document.querySelector('.shopping-cart');
 
 document.querySelector('#cart-btn').onclick = () =>{
     shoppingCart.classList.toggle('active');
